@@ -1,0 +1,61 @@
+# fetched: https://docs.vizcom.com/llms.txt
+# method: searched
+# generated: 2026-07-21
+# note: The "OpenAPI Specs" link below (api-reference/openapi.json) resolves to the
+#       default Mintlify "Plant Store" placeholder (server sandbox.mintlify.com), NOT a
+#       real Vizcom API. Vizcom publishes no public developer API as of this pass.
+
+# Vizcom Docs
+
+## Docs
+
+- [2D to 3D ](https://docs.vizcom.com/2D-to-3D.md)
+- [Welcome to Vizcom Documentation ](https://docs.vizcom.com/Introduction.md): Vizcom is an AI-powered design tool built for creative professionals. Whether you're exploring early concepts or refining a final direction, these docs will help you get the most out of every feature.
+- [Animating in Vizcom](https://docs.vizcom.com/animating-in-vizcom.md)
+- [Session Timeout  ](https://docs.vizcom.com/asset-overview.md): Automatically log users out after inactivity to protect sensitive design data. Configure timeout durations from 1–24 hours in your Enterprise organization settings.
+- [Asset Library](https://docs.vizcom.com/asset-overview-1.md): Keep your visual building blocks organized and reusable across files, projects, and teams.
+- [Best Practices](https://docs.vizcom.com/best-practices.md)
+- [Billing & Plan management](https://docs.vizcom.com/billing-plan-management.md)
+- [Color Match ](https://docs.vizcom.com/color-match.md)
+- [Color Variation ](https://docs.vizcom.com/color-variation.md)
+- [Creative Interface ](https://docs.vizcom.com/creative-interface.md)
+- [Data](https://docs.vizcom.com/data.md): Enterprise Admins can monitor who accessed Vizcom and when, and review high-level user activity like file creation and edits in the workspace. Monitor how your organization, workspace, or team is using Vizcom with detailed generation, access, and activity data.
+- [Drawing in Vizcom](https://docs.vizcom.com/drawing-in-vizcom.md)
+- [Editing areas with selection tools ](https://docs.vizcom.com/editing-areas.md)
+- [Enhance & Upscale](https://docs.vizcom.com/enhance-and-upscale.md): Boost image quality with AI Enhance and increase resolution up to 8K on export.
+- [Enterprise Plus](https://docs.vizcom.com/enterprise-plus.md)
+- [Export Panel](https://docs.vizcom.com/export-panel.md): Download your work as images, video, vector, or 3D files — with format, resolution, and quality options.
+- [Extract Colors](https://docs.vizcom.com/extract.md): Pull an accurate color palette from any image, refine it, and recolor your design.
+- [Extract Parts](https://docs.vizcom.com/extract-parts.md): Detect the individual parts in an image, extract each one, and generate Bill of Materials data.
+- [File Sharing ](https://docs.vizcom.com/file-sharing.md)
+- [Home](https://docs.vizcom.com/home.md): Quickly access your most recent files, manage all workspace content, and jump back into your designs from one central location.
+- [Importing 3D Models](https://docs.vizcom.com/importing-3-d-models.md)
+- [Keyboard Shortcuts](https://docs.vizcom.com/keyboard-shortcuts.md)
+- [Making your own Style ](https://docs.vizcom.com/making-your-own-style.md)
+- [Manage Members ](https://docs.vizcom.com/manage-members.md): Learn how to invite members, assign Admin, Editor, and Viewer roles, and manage your Vizcom workspace team across all subscription plans.
+- [Managing Seats](https://docs.vizcom.com/managing-seats.md)
+- [Mix (Legacy) ](https://docs.vizcom.com/mix.md)
+- [Modify Modes](https://docs.vizcom.com/modify-modes.md)
+- [Modify - Prompt Enhancements & Speech to Text ](https://docs.vizcom.com/modify-prompt-enhancements.md)
+- [My Files](https://docs.vizcom.com/new.md): My Files is your personal, private space in Vizcom. Store drafts, explore ideas, and share files with your team only when you're ready.
+- [Privacy & Security FAQ](https://docs.vizcom.com/privacy-and-security-faq.md)
+- [Prompting for Render & Refine](https://docs.vizcom.com/prompting-for-render-refine.md)
+- [Prompting in Modify](https://docs.vizcom.com/prompting-in-modify.md)
+- [Reference Images](https://docs.vizcom.com/reference-images.md)
+- [Refine Mode](https://docs.vizcom.com/refine-mode.md)
+- [Results Panel ](https://docs.vizcom.com/results-panel.md)
+- [Studio Refresh](https://docs.vizcom.com/studio-refresh.md)
+- [Render Styles Overview ](https://docs.vizcom.com/styles-overview.md)
+- [Teams](https://docs.vizcom.com/teams.md): Create dedicated team spaces to organize files by project or topic, control visibility with public or private settings, and collaborate with specific workspace members.
+- [Try-On](https://docs.vizcom.com/try-on.md): Apply garments and products onto models and generate photoreal results in any pose.
+- [3D Generation Types ](https://docs.vizcom.com/types-of-3-d-generations.md)
+- [Unify](https://docs.vizcom.com/unify.md)
+- [Form Variation](https://docs.vizcom.com/untitled-page.md): Explore variations of a design's shape and silhouette by navigating a 2D form space.
+- [Vizcom Credits](https://docs.vizcom.com/vizcom-credits.md)
+- [Connect Vizcom to Autodesk Fusion](https://docs.vizcom.com/vizcom-to-fusion-plugin.md): Move your 3D models between Vizcom and Autodesk Fusion — in both directions, at any stage of your creative process.
+- [Workbench](https://docs.vizcom.com/workbench.md)
+- [Workspace](https://docs.vizcom.com/workspace.md): Set up independent Workspaces for different teams or clients, each with their own members, files, and subscription plans, all under one Vizcom account.
+
+## OpenAPI Specs
+
+- [openapi](https://docs.vizcom.com/api-reference/openapi.json)

@@ -1,21 +1,50 @@
 aid: vizcom
 name: Vizcom
-description: 'Vizcom is a company surfaced as a portfolio company of index-ventures and added to the API
-  Evangelist network as a stub for enrichment. Sector: business-applications. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  Vizcom is an AI-powered design tool for creative professionals that instantly transforms
+  hand-drawn sketches and 3D models into photorealistic renders. Product designers across
+  industrial design, footwear, automotive, and apparel use Vizcom to explore concepts,
+  iterate on form and color variations, apply materials and environments, convert 2D to 3D,
+  and export production-ready images, video, vector, and 3D files. It offers team and
+  enterprise workspaces with SSO, seat management, activity/generation analytics, and an
+  Autodesk Fusion plugin. Vizcom is backed by Index Ventures. As of this enrichment pass
+  Vizcom publishes no public developer API (the OpenAPI linked from its docs is the default
+  Mintlify placeholder), so this profile captures the product, trust/compliance, and
+  security surface rather than an API contract.
 url: https://raw.githubusercontent.com/api-evangelist/vizcom/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - index-ventures
-x-tier: stub
-x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 5
+  pass: local-v1
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://cdn.prod.website-files.com/68da69e18c8988d039a9f6fe/694b256896dd559dad1f8296_Generic_OpenGraph_1200x630.png
 tags:
 - Company
 - Business Applications
+- Design
+- Generative AI
+- 3D Rendering
+- Product Design
+- Industrial Design
+- Creative Tools
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +53,38 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://www.vizcom.ai/
+  url: https://vizcom.com/
+- type: Documentation
+  url: https://docs.vizcom.com/
+- type: Pricing
+  url: https://vizcom.com/pricing
+- type: Blog
+  url: https://vizcom.com/blog
+- type: SignUp
+  url: https://app.vizcom.com/auth
+- type: Login
+  url: https://app.vizcom.com/auth
+- type: Support
+  url: mailto:support@vizcom.com
+- type: TermsOfService
+  url: https://vizcom.com/legal/terms-of-service
+- type: PrivacyPolicy
+  url: https://vizcom.com/legal/privacy-policy
+- type: TrustCenter
+  url: https://trust.vizcom.com/
+- type: Compliance
+  url: https://trust.vizcom.com/
+- type: Security
+  url: https://trust.vizcom.com/
+- type: LLMsTxt
+  url: llms/vizcom-llms.txt
+- type: TrustCenter
+  name: Trust center certifications (SOC 2 Type 2, ISO 27001/27017, CSA STAR L1)
+  url: security/vizcom-trust-center.yml
+- type: Compliance
+  name: Published compliance program (SOC 2, ISO 27001, GDPR, CPRA)
+  url: security/vizcom-trust-center.yml
+- type: VulnerabilityDisclosure
+  url: security/vizcom-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/vizcom-domain-security.yml

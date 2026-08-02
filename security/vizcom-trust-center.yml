@@ -1,0 +1,16 @@
+generated: '2026-07-21'
+method: searched
+probe: true
+url: https://trust.vizcom.com/
+platform: SafeBase
+certifications:
+  - SOC 2 Type 2
+  - ISO/IEC 27001:2022
+  - ISO/IEC 27017:2015
+  - CSA STAR Level 1
+compliance:
+  - GDPR
+  - CPRA
+evidence:
+  - source: https://trust.vizcom.com/
+    keywords: [soc 2 type 2, iso/iec 27001:2022, iso/iec 27017:2015, csa star level 1, gdpr, cpra, trust center]

@@ -1,0 +1,44 @@
+generated: '2026-07-21'
+method: probed
+note: >-
+  Probed /.well-known/ discovery surface across Vizcom hosts. No Vizcom-owned discovery
+  documents were found. The two 200 responses on trust.vizcom.com are served by the
+  SafeBase trust-portal vendor (issuer https://app.safebase.io/api/mcp) via CNAME, not by
+  Vizcom's own infrastructure, and describe SafeBase's MCP OAuth server — so they are
+  recorded here for completeness but are NOT a Vizcom API discovery/auth surface.
+hosts:
+  - host: https://vizcom.com
+    documents:
+      - {path: /.well-known/security.txt, status: 404}
+      - {path: /.well-known/openid-configuration, status: 404}
+      - {path: /.well-known/oauth-authorization-server, status: 404}
+      - {path: /.well-known/api-catalog, status: 404}
+      - {path: /.well-known/ai-plugin.json, status: 404}
+  - host: https://app.vizcom.com
+    documents:
+      - {path: /.well-known/security.txt, status: 404}
+      - {path: /.well-known/openid-configuration, status: 404}
+      - {path: /.well-known/oauth-authorization-server, status: 404}
+      - {path: /.well-known/api-catalog, status: 404}
+      - {path: /.well-known/ai-plugin.json, status: 404}
+  - host: https://api.vizcom.com
+    documents:
+      - {path: /.well-known/security.txt, status: 404}
+      - {path: /.well-known/openid-configuration, status: 404}
+      - {path: /.well-known/oauth-authorization-server, status: 404}
+      - {path: /.well-known/api-catalog, status: 404}
+      - {path: /.well-known/ai-plugin.json, status: 404}
+  - host: https://docs.vizcom.com
+    documents:
+      - {path: /.well-known/security.txt, status: 404}
+      - {path: /.well-known/openid-configuration, status: 404}
+      - {path: /.well-known/oauth-authorization-server, status: 404}
+      - {path: /.well-known/api-catalog, status: 404}
+      - {path: /.well-known/ai-plugin.json, status: 404}
+  - host: https://trust.vizcom.com
+    documents:
+      - {path: /.well-known/security.txt, status: 404}
+      - {path: /.well-known/openid-configuration, status: 200, vendor: safebase, file: vizcom-trust-openid-configuration.json}
+      - {path: /.well-known/oauth-authorization-server, status: 200, vendor: safebase}
+      - {path: /.well-known/api-catalog, status: 404}
+      - {path: /.well-known/ai-plugin.json, status: 404}
